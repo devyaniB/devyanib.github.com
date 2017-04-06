@@ -1,18 +1,27 @@
 <!DOCTYPE  html>
 <html>
 	<head>
+		<title>Devyani Baware</title>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	</head>
 	<body>
 		<header>
-			<div class="contents">
-				<ul>
-					<li><a href="#main-wrapper">Home</a></li>
-					<li><a href="#professional">Professional</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact<a></li>
+			<div class="contents" id="#">
+				<ul class="navigation">
+					<li class="active" onclick="location.href='#main-wrapper';">
+						<a><h2>Home</h2></a>
+					</li>
+					<li onclick="location.href='#professional';">
+						<a><h2>Professional</h2></a>
+					</li>
+					<li onclick="location.href='#portfolio';">
+						<a><h2>Portfolio</h2></a>
+					</li>
+					<li onclick="location.href='#contact';">
+						<a><h2>Contact</h2><a>
+					</li>
 				</ul>
 			</div>
 		</header>
@@ -32,7 +41,7 @@
 			<div class="info">
 				<div class="heading">Professional</div>
 				<div class="sub_heading">My knowledge level in software</div>
-				<div class="information"><p> HTML5<br> CSS<br>Javascript<br>Vector graphics editor: Inkscape<br> IDEs and Text Editors: Eclipse, Sublime Text<br>Operating System: Windows<br>Others: MS Word, Powerpoint 2010</p></div>
+				<div class="information"><p> HTML5<br> CSS<br>Javascript<br>Bootstrap<br>Resposive web design<br>Vector graphics editor: Inkscape<br> IDEs and Text Editors: Eclipse, Sublime Text<br>Operating System: Windows<br>Others: MS Word, Powerpoint 2010</p></div>
 			</div>
 		</div>
 		<div class="page-breaker"></div>
@@ -56,6 +65,10 @@
 		    </div>
 		</div>
 		<div class="page-breaker"></div>
-		<footer><div class="copyright">&copy; Devyani Baware</div></footer>
+		<footer>
+			<div class="copyright">&copy; Devyani Baware
+				<div class="up" onclick="location.href='#';"><p><a>Up</a></p></div>
+			</div>
+		</footer>
 	</body>
 </html>
